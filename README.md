@@ -47,3 +47,9 @@
 `SELECT * FROM usuario WHERE nombre LIKE 'AN'`
 
 ![Consulta6](img/consulta6.png "Consulta6")
+
+7. Si desea obtener los registros cuyos nombres cotengan la letra 'a'.
+
+`SELECT * FROM usuario WHERE nombre LIKE '%a%'`
+
+![Consulta7](img/consulta7.png "Consulta7")
