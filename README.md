@@ -12,8 +12,9 @@
 
 ![Consulta1](img/consulta1.png "Consulta1")
 
-![Consulta2](img/consulta2.png "Consulta2")
 
 2. Seleccionar o visualizar solamente la identificación del usuario.
 
 `select identificación from usuario`
+
+![Consulta2](img/consulta2.png "Consulta2")
