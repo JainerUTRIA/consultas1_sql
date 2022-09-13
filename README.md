@@ -6,6 +6,8 @@
 
 ![tabla usuario](img/tabla_usuario.png "Tabla usuario")
 
+## COMANDO SELECT
+
 1. Para visualizar toda la información que contiene la tabla `usuario` se puede incluir con la instrucción SELECT el caracter `^` o cada una de los campos de la tabla 
 
 `select * from usuario`
@@ -59,3 +61,34 @@
 `SELECT * FROM usuario WHERE nombre LIKE '___a%'`
 
 ![Consulta8](img/consulta8.png "Consulta8")
+
+9. Si se desea obtener los registros cuya ientificación esté entre el intervalo 110  y 150, se debe utitilizar la cláusula BETWEEN, que sirve para especificar un intervalo de valores.
+
+`SELECT * FROM usuario WHERE identificación BETWEEN '110' AND '150'`
+
+![Consulta9](img/consulta9.png "Consulta9")
+
+
+
+## COMANDO DELETE
+
+10. Para eliminar solamente los registros cuya identificación sea mayor a 130.
+
+`DELETE FROM usuario WHERE identificacion>'130'`
+
+![Consulta10](img/consulta10.png "Consulta10")
+![Consulta10](img/consulta10_2.png "Consulta10")
+
+
+## COMANDO UPDATE
+
+11. Para actualiar la ciudad de nacimiento de Cristian Vanegas, cuya identificacion es 114.
+
+`UPDATE usuario SET ciudad_nac = 'Manizales' WHERE identificación='114'`
+
+![Consulta11](img/consulta11.png "Consulta11")
+
+
+
+## INNER JOIN
+
