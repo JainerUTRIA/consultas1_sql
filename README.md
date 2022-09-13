@@ -53,3 +53,9 @@
 `SELECT * FROM usuario WHERE nombre LIKE '%a%'`
 
 ![Consulta7](img/consulta7.png "Consulta7")
+
+8. Si se desea optener los registros donde la cuarta letra del nombre sea una 'a'.
+
+`SELECT * FROM usuario WHERE nombre LIKE '___a%'`
+
+![Consulta8](img/consulta8.png "Consulta8")
