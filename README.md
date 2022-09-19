@@ -92,3 +92,14 @@
 
 ## INNER JOIN
 
+Permite obtener datos de dos o mas tablas. Cuando se realiza la concatenación de las tablas, no necesariamente se deben mostrar todos los datos de las tablas.
+
+## Tabla pedidos 
+
+![Tabla pedidos](img/Captura%20de%20pantalla%20de%202022-09-19%2016-26-58.png  "tabla pedidos")
+
+12. Para visualizar los campos identificacion, nombre, apellidos de la tabla usuario y nropedido, fecha de compra, fecha de vencimiento y observacion de la tabla pedidos, se debe realizar la siguiente instrucción SQL: 
+
+´SELECT usuario.identifiacion, usuario.nombre, usuario.apellido, pedidos.nrpedidos, pedidos.fecha compra, pedidos.fechaVence, pedidos.observación FROM usuarios INNER JOIN pedidos ON usuario.identificacion = pedidos.identifiacion´
+
+![Consulta12](img/consulta12.png "Consulta12")
